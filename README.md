@@ -10,17 +10,11 @@ The goal of this project is to build a multilingual translation chatbot. Users c
 
 ---
 
-## 👩‍💻 Steps to be Performed
+## 🗺️ Architectural Diagram
 
-In this project, we go through the following key steps:
+Below is the architecture of the translation bot system:
 
-1. **Create an empty chatbot** using Amazon Lex
-2. Define **Intents** and **Slots** for language input and text
-3. Specify **Fulfillment** for handling logic
-4. **Create an IAM Role** with permissions for Lex, Lambda, and Translate
-5. **Build an AWS Lambda function** that calls Amazon Translate API
-6. **Test the Lambda function** independently
-7. **Test the chatbot** with different language inputs via Lex Console
+![Architectural Diagram](https://github.com/Yuehan07/language-translation-bot/blob/main/Architectural%20Diagram.png)
 
 ---
 
@@ -35,20 +29,21 @@ In this project, we go through the following key steps:
 
 ---
 
-## ⚙️ Estimated Time & Cost
 
-- **Estimated Time**: 1 – 2 hours  
-- **Cost**: Free under the AWS Free Tier
+## 👩‍💻 Steps to be Performed
+
+In this project, we go through the following key steps:
+
+1. **Create an empty chatbot** using Amazon Lex
+2. Define **Intents** and **Slots** for language input and text
+3. Specify **Fulfillment** for handling logic
+4. **Create an IAM Role** with permissions for Lex, Lambda, and Translate
+5. **Build an AWS Lambda function** that calls Amazon Translate API
+6. **Test the Lambda function** independently
+7. **Test the chatbot** with different language inputs via Lex Console
 
 ---
 
-## 🗺️ Architectural Diagram
-
-Below is the architecture of the translation bot system:
-
-![Architectural Diagram](https://github.com/Yuehan07/language-translation-bot/blob/main/Architectural%20Diagram.png)
-
----
 
 ## ✅ Final Result
 
